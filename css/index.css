@@ -4,6 +4,25 @@ body {
 	letter-spacing: 2px;
 }
 
+a#weixin {
+	position: relative;
+}
+
+#weixin img {
+	width: 150px;
+	visibility: hidden;
+	position: absolute;
+	left: 160px;
+	top: -140px;
+	opacity: 0;
+}
+
+#weixin:hover img {
+	visibility: visible;
+	opacity: 1;
+	transition: 1s all;
+}
+
 a {
 	color: #8b00e0;
 	font-weight: bold;
@@ -23,7 +42,7 @@ h1 {
 
 #logo {
 	float: right;
-	margin: 12px 50px; 
+	margin: 12px 50px;
 }
 
 #top_container {
@@ -58,8 +77,8 @@ h1 {
 	margin-right: 10px;
 }
 
-/* 
-	This styling was added for the header and about page on 12/30/14. 
+/*
+	This styling was added for the header and about page on 12/30/14.
 	I preserved all of the original code above - forgive any weirdness below :)
 */
 
@@ -87,7 +106,7 @@ nav a {
 #about #content {
 	width: 80%;
 	max-width: 750px;
-	margin: auto; 
+	margin: auto;
 }
 
 #content a {
